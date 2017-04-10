@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Bom_testnode
+  host: bom-testnode
+  disk_quota: 1024M
+  services:
+  - Bom_Cloudant NoSQL DB-m9
+  - availability-monitoring-auto
